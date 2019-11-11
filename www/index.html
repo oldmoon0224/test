@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>零星APP</title>   
+</head>
+<body  style ="background-image:url(img/background.jpg);">
+   
+		 <p><img src="img/LOGO.png" style="width:50%; margin:100px 100px 100px 500px"></p>
+         帳號:<input type="text" placeholder="帳號 / Account" >
+         密碼:<input type="password" placeholder="密碼 / Password">	
+        <a href="login.html" data-transition="pop"><button class="ui-btn ui-btn-a">登入</button></a>
+        <a href="#popupLogin" data-rel="popup" data-position-to="window" data-transition="pop"><button class="ui-btn ui-btn-a">註冊</button></a>
+        <div data-role="popup" id="popupLogin" class="ui-corner-all">
+                <div style="padding:500px 500px;">
+                    <h3>請輸入以下資料</h3>
+                    <label>Username:</label>
+                    <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a">
+                    <label>Password:</label>
+                    <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
+                    <a href="index.html"><button type="submit"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">註冊</button></a>
+                </div>
+        </div>
+        <footer id="footer">
+                    <div style="text-align:center;padding:100px 500px;">如果我忘記自己是誰，請幫我記得我的名字叫曾月燁</div>
+        </footer>
+</body>
+</html>

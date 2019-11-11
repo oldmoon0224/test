@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>零星光彩</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+     <!---------------------------------------------------------head------------------------------------------------------------------------>
+  
+        <div data-role="header" data-position="fixed" style="background:-webkit-linear-gradient(rgb(233, 236, 9),rgb(43, 217, 223));">
+            <a href="#popupMenu" data-rel="popup" style="color:rgb(0, 2, 27); " >三</a>
+            <div data-role="popup" id="popupMenu" data-theme="b">
+              <ul data-role="listview" data-inset="true">
+                   <li><a href="a.html" data-transition="flip">個人資料</a></li>
+                   <li><a href="b.html">財庫</a></li>
+                   <li><a href="c.html">家庭</a></li>
+                   <li><a href="d.html">社交</a></li>
+                   <li><a href="e.html">代辦事項</a></li>
+                   <li><a href="f.html">人生目標</a></li>
+              </ul>
+            </div>
+            <h1 style="color:white;text-align:center;font-size:24px;">零星光彩</h1>
+        </div>
+     <!---------------------------------------------------------head------------------------------------------------------------------------>
+     
+     <!---------------------------------------------------------main------------------------------------------------------------------------>
+     <h5  style="text-align:center; margin-top:10px;font-size:50px;">如果壽命可以選擇</h5>   
+     <h1  style="text-align:center; font-size:10px;">你會想活到幾歲</h1>   
+     <p><img src="img/clock.png" style="width:50%; margin:10px 20px 10px 120px"></p>
+     <label for="date">日期:</label>
+     <input type="date" id="date" value="" >
+     <div  style="text-align:center;">
+     <a href="#transitionExample" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ;text-align:center;" data-rel="popup">確認</a>
+     <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+        <p>相信我你不會想更改它</p>
+    </div>
+    </div>
+     <!---------------------------------------------------------main------------------------------------------------------------------------>
+
+     <!--------------------------------------------------------footer----------------------------------------------------------------------->
+        <div is="footer" data-role="footer" data-position="fixed" >
+            <h3>曾月燁人生無極限公司</h3>            
+        </div>
+   
+     <!--------------------------------------------------------footer----------------------------------------------------------------------->
+        
+</body>
+</html>
